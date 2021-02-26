@@ -29,7 +29,5 @@ public class Scraper {
         return URL;
     }
 
-    public String getWebsiteContent() {
-        return websiteContent;
-    }
+    
 }
