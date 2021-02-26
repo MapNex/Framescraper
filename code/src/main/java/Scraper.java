@@ -28,4 +28,8 @@ public class Scraper {
     public String getURL() {
         return URL;
     }
+
+    public String getWebsiteContent() {
+        return websiteContent;
+    }
 }
