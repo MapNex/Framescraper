@@ -20,8 +20,12 @@ public class Scraper {
             sb.append(sc.next());
             //System.out.println(sc.next());
         }
-        
+
         //Retrieving the String from the String Buffer object
         this.websiteContent = sb.toString();
+    }
+
+    public String getURL() {
+        return URL;
     }
 }
