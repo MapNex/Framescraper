@@ -45,7 +45,7 @@ public class Scraper {
         return null;
     }
 
-    public String[] getAllLinks(){
+    public String[] getLinksInPage(){
         return null;
     }
 
