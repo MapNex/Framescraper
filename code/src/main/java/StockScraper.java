@@ -2,10 +2,10 @@ import java.io.IOException;
 
 public class StockScraper extends ConceptScraper {
 
-    public StockScraper(String url) throws IOException{
-
+    public StockScraper(String url) throws IOException {
         super(url);
     }
+
 
     public String[] getStockInfo(String aksjeTicker){
         return null;
