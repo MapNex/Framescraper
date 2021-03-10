@@ -9,6 +9,7 @@
 # Joakims add in
 .idea
 .gradle
+build
 
 # User-specific stuff
 .idea/**/workspace.xml
