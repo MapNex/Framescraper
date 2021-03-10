@@ -77,7 +77,7 @@ public class Scraper {
     /**
      *
      * @param className The class name of the element which we want to get the content of
-     * @return
+     * @return returns the content of the given class as strings in String[]
      */
     public String[] getContentFromClass(String className){
         return null;
