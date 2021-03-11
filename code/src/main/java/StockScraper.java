@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 /**
- * Shopscraper class representing a specific instantiation of a ConceptScraper
+ * Stockscraper class representing a specific instantiation of a ConceptScraper
  * @author Mathias Jarbekk
  * @author Thomas Johannessen
  * @author Joakim Jensen
