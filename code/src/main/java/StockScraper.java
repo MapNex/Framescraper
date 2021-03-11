@@ -23,21 +23,21 @@ public class StockScraper extends ConceptScraper {
 
     /**
      * Searches the HTML code of site sent as constructor parameter and returns information about the Stock
-     * @param aksjeTicker Short (often 3 letter) code used to identify Stocks on the international market
+     * @param stockTicker Short (often 3 letter) code used to identify Stocks on the international market
      * @return A string array containing stock title, stock code, price,
      * @see StockScraper#StockScraper(String url)
      */
-    public String[] getStockInfo(String aksjeTicker){
+    public String[] getStockInfo(String stockTicker){
         return null;
     }
     /**
      * Searches the HTML code of site sent as constructor parameter and returns information about the Stock
-     * @param kjoptKurs The price of the stock at the time of purchase
-     * @param antallAksjer The number of stocks you wish to gague the return
+     * @param stockPrice The price of the stock at the time of purchase
+     * @param numberOfStocks The number of stocks you wish to gague the return
      * @return Double value of the change in stock price of the given stock
      * @see StockScraper#StockScraper(String url)
      */
-    public Double getStockReturn(String aksjeTicker, int kjoptKurs, int antallAksjer){
+    public Double getStockReturn(String stockTicker, int stockPrice, int numberOfStocks){
         return null;
     }
 
@@ -46,7 +46,7 @@ public class StockScraper extends ConceptScraper {
      * @return Double value of the precentile change in stock price of the given stock
      * @see StockScraper#StockScraper(String url)
      */
-    public Double getStockReturnPrcent(String aksjeTicker, int kjoptKurs, int antallAksjer){
+    public Double getStockReturnPrcent(String stockTicker, int stockPrice, int numberOfStocks){
         return null;
     }
 
