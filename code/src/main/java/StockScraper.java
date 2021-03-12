@@ -46,7 +46,7 @@ public class StockScraper extends ConceptScraper {
      * @return Double value of the precentile change in stock price of the given stock
      * @see StockScraper#StockScraper(String url)
      */
-    public Double getStockReturnPrcent(String stockTicker, int stockPrice, int numberOfStocks){
+    public Double getStockReturnPrcent(String stockTicker, int stockPrice){
         return null;
     }
 
